@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Добавяне на въпроси</title>
+        <link rel="stylesheet" href="../css/add_questions.css">
+        <link rel="icon" href="../img/tc_logo.png" type="image/png">
+        <link rel="stylesheet" href="../css/logo.css">
+    </head>
+    <body>
+        <header>
+            <img src="../img/tc_logo.png" />
+            <h1>Test&Critique</h1>
+            <h2>Преподавател</h2>
+        </header>
+
+        <p>
+            <a href="teacher_index.html" class="button"> Към главното меню </a>
+        </p>
+
+        <main>
+            <form id="csvForm" enctype="multipart/form-data">
+                <input type="file" id="csvFile" name="csvFile" accept=".csv">
+                <button type="submit" id="upload-btn">Качи файл</button>
+
+            </form>
+
+        </main>
+    </body>
+
+</html>
+<script src="../js/add_questions.js"></script>
